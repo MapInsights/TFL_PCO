@@ -151,7 +151,8 @@ write.xlsx2(as.data.frame(Lite_Final),file=paste(wd,'/',date,'_LicenceReport.xls
 
 library(RDCOMClient)
 
-base_list<-'antony.carolan@greentomatocars.com;Haider.Variava@greentomatocars.com;tyrone.hunte@greentomatocars.com ;sophie.jacobsen@greentomatocars.com;Tahir.Nazir@greentomatocars.com'
+base_list<-'Daria.Alekseeva@greentomatocars.com;antony.carolan@greentomatocars.com;Haider.Variava@greentomatocars.com;tyrone.hunte@greentomatocars.com ;sophie.jacobsen@greentomatocars.com;Tahir.Nazir@greentomatocars.com;arti.ram@greentomatocars.com;gtcsignup@greentomatocars.com'
+
 # Send mail for 3D
 OutApp <- COMCreate("Outlook.Application")
 outMail = OutApp$CreateItem(0)
